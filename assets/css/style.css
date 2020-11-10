@@ -756,6 +756,7 @@ section {
   background-size: cover;
   padding: 60px 0 30px 0;
   position: relative;
+  padding-left: 25%;
 }
 
 .about-boxes::before {
@@ -1283,8 +1284,15 @@ section {
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
+  
 }
-
+.contact{
+  position: relative;
+}
+.contact .container .row{
+  left: 15%;
+  position: relative;
+}
 .contact .info-box i {
   font-size: 32px;
   color: #ff4a17;
